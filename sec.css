@@ -1,0 +1,91 @@
+.ui.vertical.basic.segment.masthead {
+    height: 560px;
+    background: url('images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+.ui.inverted.center.aligned.header.title {
+  font-size: 75px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ui.header.end {
+  font-size: 30px;
+  letter-spacing: 4px;
+  color: gray;
+  margin-top: 4px;
+}
+
+.ui.inverted.segment.pic-view {
+  height: 200px;
+}
+
+.ui.vertical.basic.segment.content > .ui.center.aligned.header {
+  font-size: 40px;
+  color: rgb(56, 56, 56);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ui.header.title {
+  margin-top: 70px;
+  margin-bottom:3px;
+}
+
+.ui.inverted.blue.basic.segment.rer{
+  height: 450px;
+  background-image: url('images/middle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 140px;
+}
+
+.four.wide.column {
+  position: relative;
+}
+
+.ui.circular.inverted.segment {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.ui.inverted.blue.basic.segment.rer >.ui.grid {
+  position: relative;
+  top: 30%;
+}
+
+.ui.center.aligned.header {
+  margin-top: 55px;
+}
+
+.ui.circular.inverted.segment > .ui.inverted.header {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 120px;
+}
+
+.red.circular.inverted.star.icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 100%;
+}
+
+.ui.massive.red.circular.button {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 1050%;
+}
